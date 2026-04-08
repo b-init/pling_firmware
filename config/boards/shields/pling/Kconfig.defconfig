@@ -1,0 +1,16 @@
+if SHIELD_PLING_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Pling!"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_PLING_LEFT
+
+if SHIELD_PLING_LEFT || SHIELD_PLING_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_PLING_LEFT || SHIELD_PLING_RIGHT

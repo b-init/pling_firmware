@@ -21,4 +21,6 @@
 
 include:
   - board: xiao_ble
-    shield: pling
+    shield: pling_left
+  - board: xiao_ble
+    shield: pling_right
